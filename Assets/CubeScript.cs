@@ -28,6 +28,11 @@ public class CubeScript : MonoBehaviour {
             rb.AddForce(-sidewaysForce * Time.deltaTime, 0f, 0f, ForceMode.VelocityChange);
         }
 
+        if(rb.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
+
 
 
 	}

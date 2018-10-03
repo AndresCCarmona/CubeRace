@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\CameraScript.cs" />
     <Compile Include="Assets\CubeScript.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\PlayerCollision.cs" />
     <Compile Include="Assets\Score.cs" />
     <Reference Include="UnityEditor.StandardEvents">
